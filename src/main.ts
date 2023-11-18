@@ -15,5 +15,8 @@ app.use(ElementPlus, {
   locale: zhCn, //element-plus国际化配置，默认是english，改中
 })
 
+// 使用不同的开发环境
+console.log(import.meta.env)
+
 // 将应用挂载到指定挂载点
 app.mount('#app')

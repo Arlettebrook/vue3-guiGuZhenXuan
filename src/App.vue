@@ -15,7 +15,7 @@ import Test from '@/components/Test.vue'
       layout="sizes, prev, pager, next"
       :total="1000"
     />
-    <Test/>
+    <Test />
   </div>
 </template>
 

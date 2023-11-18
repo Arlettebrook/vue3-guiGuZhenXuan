@@ -1,13 +1,9 @@
 <template>
-    <div>
-        <h2>测试组件@</h2>
-    </div>
+  <div>
+    <h2>测试组件@</h2>
+  </div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>
