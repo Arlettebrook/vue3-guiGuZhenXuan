@@ -1,6 +1,7 @@
 <script setup lang="ts">
-  // 引入图标组件
-  import {Plus,Edit,Delete} from '@element-plus/icons-vue'
+// 引入图标组件
+import { Plus, Edit, Delete } from '@element-plus/icons-vue'
+import Test from '@/components/Test.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@
       layout="sizes, prev, pager, next"
       :total="1000"
     />
+    <Test/>
   </div>
 </template>
 

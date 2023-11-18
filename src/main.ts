@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import App from '@/App.vue'
 // 引入element-plus组件库与全部样式
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
@@ -11,8 +11,8 @@ import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 const app = createApp(App)
 
 // 使用element-plus插件库
-app.use(ElementPlus,{
-    locale:zhCn //element-plus国际化配置，默认是english，改中
+app.use(ElementPlus, {
+  locale: zhCn, //element-plus国际化配置，默认是english，改中
 })
 
 // 将应用挂载到指定挂载点
