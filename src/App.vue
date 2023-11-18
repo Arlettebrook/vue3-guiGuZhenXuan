@@ -1,6 +1,4 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
@@ -17,8 +15,14 @@
     <!-- <use xlink:href="#icon-phone" fill="red"></use> -->
     <!-- </svg> -->
     <svg-icon name="home" color="pink" width="100px" height="100px"></svg-icon>
-    <Pagination/>
+    <Pagination />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+div{
+  h1{
+    color:$color;
+  }
+}
+</style>

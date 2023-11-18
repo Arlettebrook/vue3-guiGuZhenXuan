@@ -30,5 +30,8 @@ import globalComponent from '@/components/'
 // 使用自定义插件
 app.use(globalComponent)
 
+// 引入模版的全局样式
+import '@/styles/index.scss'
+
 // 将应用挂载到指定挂载点
 app.mount('#app')
