@@ -16,7 +16,10 @@ app.use(ElementPlus, {
 })
 
 // 使用不同的开发环境
-console.log(import.meta.env)
+// console.log(import.meta.env)
+
+// svg插件需要配置代码
+import 'virtual:svg-icons-register'
 
 // 将应用挂载到指定挂载点
 app.mount('#app')
