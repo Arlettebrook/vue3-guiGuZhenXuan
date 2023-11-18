@@ -13,7 +13,7 @@ export default defineConfig({
       iconDirs: [path.resolve(process.cwd(), 'src/assets/icons')],
       // Specify symbolId format
       symbolId: 'icon-[dir]-[name]',
-    })
+    }),
   ],
   resolve: {
     alias: {

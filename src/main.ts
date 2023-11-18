@@ -21,5 +21,14 @@ app.use(ElementPlus, {
 // svg插件需要配置代码
 import 'virtual:svg-icons-register'
 
+// 将SvgIcon组件注册为全局组件：因为很多地方都会用到它-可以自定义插件自动注册全局组件
+// import SvgIcon from '@/components/SvgIcon/index.vue'
+// app.component('SvgIcon',SvgIcon)
+
+// 引入自定义插件：注册整个项目全局组件index.ts可以不用写
+import globalComponent from '@/components/'
+// 使用自定义插件
+app.use(globalComponent)
+
 // 将应用挂载到指定挂载点
 app.mount('#app')
