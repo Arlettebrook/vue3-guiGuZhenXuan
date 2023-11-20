@@ -20,9 +20,9 @@
 </template>
 
 <style scoped lang="scss">
-div{
-  h1{
-    color:$color;
+div {
+  h1 {
+    color: $color;
   }
 }
 </style>
