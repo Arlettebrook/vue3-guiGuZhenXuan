@@ -1,4 +1,19 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import request from '@/utils/request'
+import {onMounted} from 'vue'
+onMounted(()=>{
+  request({
+    url:'/user/465login',
+    method:'post',
+    data:{
+      username:'admin',
+      password:'111111'
+    }
+  }).then(res=>{
+    console.log(res)
+  })
+})
+</script>
 
 <template>
   <div>
@@ -16,6 +31,8 @@
     <!-- </svg> -->
     <svg-icon name="home" color="pink" width="100px" height="100px"></svg-icon>
     <Pagination />
+
+    <h1>测试axios的二次封装</h1>
   </div>
 </template>
 
